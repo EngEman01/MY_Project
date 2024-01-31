@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    background: url("D8AED984D981D98AD8A7D8AA-D984D984D8B4D8A7D8B4D987-2-2.jpg") no-repeat;
+    background-size: 1700px 1000px;
+
+
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.nav {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(221, 76, 192, 0.549);
+}
+
+.subnav {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    text-align: right;
+    padding: 20px;
+    float: left;
+    text-align: center;
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+.subnav:hover {
+    color: aliceblue;
+    /* font-size: 20px; */
+    
+}
+
+.cont {
+    padding-top: 50px;
+    margin: auto;
+    margin-top: 7%;
+    border-radius: 7px;
+    text-align: center;
+    background-color: rgba(221, 76, 192, 0.549);
+    width: 500px;
+    height: 450px;
+}
+
+h1:hover {
+    color: aliceblue;
+}
+
+.cont input {
+    width: 280px;
+    height: 25px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    /* margin-top: 30px; */
+}
+
+.in {
+    width: 280px;
+    height: 25px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+label {
+    font-size: large;
+}
+
+button {
+    width: 200px;
+    height: 35px;
+    border-radius: 6px;
+    background-color: rgba(226, 62, 194, 0.549);
+    border-color: aliceblue;
+    border-width: 3px;
+    font-size: 23px;
+}
+
+.login {
+    margin-top: 30px;
+}
+
+
+.log {
+    margin-top: 30px;
+}
+
+button:hover {
+    color: rgba(226, 62, 194, 0.549);
+    background-color: aliceblue;
+}
+
+.link , .pass{
+    display: block;
+    margin-top: 8px;
+    color: blue;
+    transition: 0.5s;
+}
+
+.link , .pass:hover{
+    /* margin-top: 40px; */
+    margin-left: 40px;
+    /* transition: 0.8s; */
+}
+
+
+.pass {
+    margin-top: 25px;
+    /* transition: 0.5s; */
+}
+
+.con {
+    text-align: center;
+    /* display: flex;
+    align-items: center;*/
+    justify-content: center;
+    height: 80vh; 
+    
+}
