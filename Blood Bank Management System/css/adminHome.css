@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    width: 97vw;
+    height: 100px;
+}
+.admin-home{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 15% 85%;
+
+}
+
+.side{
+    width: 100%;
+    height: 100%;
+    background: #39383f;
+    line-height: 60px;
+}
+
+.side ul li a{
+    color: #c3c1c1;
+}
+
+.admin-body{
+    width: 100%;
+    height: 100%;
+    background: #f3efefc9;
+    display: grid;
+    grid-template-rows: 60% 30%;
+}
+
+.blood-type{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 23% 23% ;
+    grid-template-columns:  23% 23% 23% 23%;
+    gap: 2%;
+}
+
+.blood-type .type{
+    margin-left: 15px;
+    background: #fff;
+    border-radius: 10%;
+    position: relative;
+
+}
+
+.blood-type .type h1{
+    position: absolute;
+    top: 15px;
+    right: 80px;
+}
+
+.blood-type .type h6{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #5f5d5d;
+    font-size: 14px;
+}
+
+.blood-info{
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid #39383f;
+    display: grid;
+    grid-template-columns: 21% 21% 21% 21%;
+    gap: 4%;
+}
+
+.blood-info .info{
+    width: 100%;
+    height: 60%;
+    margin-top: 30px;
+    margin-left: 15px;
+    background: #fff;
+    border-radius: 8%;
+    position: relative;
+}
+
+.blood-info .info h3{
+    position: absolute;
+    top: 55px;
+    left:20px ;
+}
+
+.blood-info .info h6{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #5f5d5d;
+    font-size: 20px;
+}
+
+.blood-update{
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid #39383f;
+    position: relative;
+}
+
+.blood-update h1{
+    position: absolute;
+    top: 55px;
+    left: 450px;
+}
+
+.blood-update select{
+    width: 170px;
+    height: 35px;
+    font-size: 15px;
+    background: #fff;
+    border: 2px solid #fff;
+    position: absolute;
+    top: 130px;
+    left: 400px;
+}
+
+.blood-update input{
+    position: absolute;
+    top: 133px;
+    left: 600px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.blood-update .update{
+    width: 80px;
+    height: 35px;
+    position: absolute;
+    top: 130px;
+    left: 870px;
+    font-size: 18px;
+    background: #3965f6;
+    border: none;
+    color: #fff;
+    border-radius: 10%;
+}

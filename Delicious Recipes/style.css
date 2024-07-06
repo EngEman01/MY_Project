@@ -184,6 +184,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    align-items: center;
 }
 
 .server .meals .meal-box .box-price h2{

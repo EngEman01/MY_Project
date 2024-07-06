@@ -1,0 +1,311 @@
+*{
+    margin: 0px;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    text-transform: capitalize;
+    color: #fff;
+    background-color: black;
+    box-sizing: inherit;
+    /* background: url("./image/man_smoke.jpg") no-repeat; */
+}
+
+/* .profilio-body{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 8.5% 80%;
+} */
+
+.profilio-body .side-nav{
+    /* width: 100%; */
+    height: 100%;
+    position: fixed;
+    background-color: #222;
+    text-align: center;
+}
+
+.profilio-body .side-nav .active{
+    background-color: #000;
+}
+
+.profilio-body .side-nav .logo{
+    width: 130px;
+    filter: invert(0.3);
+}
+
+/* .side-nav .logo:hover{
+    filter: invert(0);
+} */
+
+.profilio-body .side-nav .contant-nav{
+    width: 100%;
+    height: 100px;
+}
+
+.profilio-body .side-nav .contant-nav:hover{
+    background-color: #000;
+}
+.profilio-body .side-nav .active:hover{
+    background-color: #ece9e9bc;
+}
+.profilio-body .side-nav a{ 
+    padding-top: 30px;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.profilio-body .side-nav .nav-img{
+    width: 30px;
+}
+
+.profilio-body .contant-body{
+    width: 80%;
+    height: 100%;
+    margin-left: 300px;
+    transition: margin-left .4s;
+    /* text-align: center; */
+}
+
+.profilio-body .contant-body img{
+    width: 1000px;
+}
+
+.profilio-body .contant-body .front-body .info-front{
+    line-height: 50px;
+    margin-left: -250px;
+    text-align: center;
+}
+
+.profilio-body .contant-body .front-body img{
+    width: 90%;
+}
+
+/* .profilio-body .contant-body .about-body{
+    width: 100%;
+    height: 100%;
+} */
+
+.profilio-body .contant-body .about-body .name{
+    width: 90%;
+}
+
+.profilio-body .contant-body .about-body .name p{
+    text-decoration: underline;
+    line-height: 100px;
+    font-size: 30px;
+}
+
+.profilio-body .contant-body .about-body .name pre{
+    margin-left: -100px;
+    line-height: 1.5;
+    color: #3e3e3e;
+}
+
+.profilio-body .contant-body .about-body .skills p{
+    text-decoration: underline;
+    line-height: 100px;
+    font-size: 30px;
+}
+
+.profilio-body .contant-body .about-body .skills h3{
+    color: #3e3e3e;
+}
+
+.profilio-body .contant-body .about-body .skills .skill-color{
+    width: 90%;
+    height: 30px;
+    margin: 20px 0;
+    background-color: #fff;
+}
+.profilio-body .contant-body .about-body .skills .skill-color span{
+    height: 30px;
+    display: block;
+    background-color: #3e3e3e;
+}
+.profilio-body .contant-body .about-body .skills .skill-color .photography{
+    width: 80%;
+}
+.profilio-body .contant-body .about-body .skills .skill-color .web-design{
+    width: 90%;
+}
+.profilio-body .contant-body .about-body .skills .skill-color .photoshop{
+    width: 85%;
+}
+
+.profilio-body .contant-body .about-body .count{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    height: 130px;
+    color: #000;
+    text-align: center;
+    margin: 30px 0;
+    background-color: #f0ebeb;
+}
+
+.profilio-body .contant-body .about-body .count .count-contant{
+   font-size: 19px;
+}
+
+.profilio-body .contant-body .about-body .download{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    color: #222;
+    margin: 30px 0;
+}
+
+.profilio-body .contant-body .about-body .pricing{
+    width: 95%;
+    
+}
+
+.profilio-body .contant-body .about-body .pricing p{
+    text-decoration: underline;
+    line-height: 100px;
+    font-size: 30px;
+}
+
+.profilio-body .contant-body .about-body .pricing .contant-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.profilio-body .contant-body .about-body .pricing .contant-price .older-price{
+    width: 40%;
+    height: 530px;
+    text-align: center;
+    background-color: #fff;
+    color: #545454;
+    line-height: 3.5;
+    position: relative;
+    filter: invert(0.2);
+}
+
+.profilio-body .contant-body .about-body .pricing .contant-price .older-price:hover{
+    filter: invert(0);
+}
+
+.profilio-body .contant-body .about-body .pricing .contant-price .older-price h3{
+    color: #ffffffb3;
+    width: 100%;
+    height: 80px;
+    background-color: #323131;
+    font-size: 28px;
+}
+
+.profilio-body .contant-body .about-body .pricing .contant-price .older-price .sign{
+    width: 100%;
+    height: 90px;
+    background-color: #f4efeff0;
+    position: absolute;
+    bottom: 0;
+}
+
+.profilio-body .contant-body .about-body .pricing .contant-price .older-price .sign .signup{
+    width: 90px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #fff;
+    border: none;
+    font-size: 17px;
+
+}
+
+.profilio-body .contant-body .about-body .reputation{
+    width: 95%;
+}
+
+.profilio-body .contant-body .about-body .reputation p{
+    text-decoration: underline;
+    line-height: 100px;
+    font-size: 30px;
+}
+
+.profilio-body .contant-body .about-body .reputation .reputation1{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    color: #545454;
+}
+
+.profilio-body .contant-body .about-body .reputation .reputation1 img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.profilio-body .contant-body .photo-body{
+    width: 100%;
+}
+
+.profilio-body .contant-body .photo-body p{
+    text-decoration: underline;
+    line-height: 100px;
+    font-size: 30px;
+}
+
+.profilio-body .contant-body .photo-body .photo-side{
+    width: 100%;
+    /* height: 800px; */
+    display: flex;
+}
+
+.profilio-body .contant-body .photo-body .photo-side .left-side{
+    width: 45%;
+}
+
+.profilio-body .contant-body .photo-body .photo-side .right-side{
+    width: 45%;
+}
+
+.profilio-body .contant-body .photo-body .photo-side img{
+    width: 250px;
+}
+
+.profilio-body .contant-body .contact-body{
+    width: 90%;
+}
+
+.profilio-body .contant-body .contact-body p{
+    text-decoration: underline;
+    line-height: 100px;
+    font-size: 30px;
+}
+
+.profilio-body .contant-body .contact-body h6{
+    font-size: 30px;
+    line-height: 3;
+}
+
+.profilio-body .contant-body .contact-body input{
+    display: block;
+    width: 80%;
+    height: 40px;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+.profilio-body .contant-body .contact-body .send{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    color: #222;
+    margin: 30px 0;
+    font-size: 18px;
+    text-transform: uppercase;
+}

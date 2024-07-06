@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.login-body{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(#fff,#f40202);
+}
+
+form{
+    width: 600px;
+    height: 400px;
+    font-size: 25px;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 10%;
+    position: absolute;
+    top: 20%;
+    left: 30%; 
+}
+
+.form-contant .username label{
+    display: block;
+}
+
+.form-contant div{
+    margin-top: 50px;
+   text-align: center;
+}
+
+.form-contant{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    line-height: 80px;
+}
+
+input{
+    font-size: 25px;
+}
+
+form h3{
+    height: 50px;
+    background: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+form .login{
+    width: 120px;
+    height: 50px;
+    text-transform: uppercase;
+    background: #f40202;
+    color: #fff;
+    font-size: 23px;
+    margin-top: 70px;
+    margin-left: 40%;
+    outline: none;
+    border: none;
+    box-shadow: 1px 0px 10px 0 #777474;
+}
+
+form .login a{
+    color: #fff;
+    text-decoration: none;
+}
